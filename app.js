@@ -7,7 +7,7 @@ app.use(cors());
 
 app.get('/ping', (req, res) => {
     res.send({
-        message: 'Hello, GLS!'
+        message: 'Hello, GLS! Welcome to the workshop of Node.js and express.js'
     });
 });
 
